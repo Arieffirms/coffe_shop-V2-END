@@ -1,0 +1,64 @@
+<RCC>
+  <qresource prefix="Images">
+    <file>search.png</file>
+    <file>create_akun.png</file>
+    <file>search-engine.png</file>
+    <file>crossx.png</file>
+    <file>qris.png</file>
+    <file>qris.png</file>
+    <file>tambah_iced_expresso.png</file>
+    <file>tambah_flat_white.png</file>
+    <file>tambah_caramel_machiato.png</file>
+    <file>tambah_caffe_mocha.png</file>
+    <file>tambah_barang_cappuccino.png</file>
+    <file>tambah_barang_americano.png</file>
+    <file>lingkaran.png</file>
+    <file>LIST BARANG.png</file>
+    <file>add-barang.png</file>
+    <file>list stock barang.png</file>
+    <file>Group 2.png</file>
+    <file>Caffè Mocha.png</file>
+    <file>Sign_up_coba.png</file>
+    <file>cancel.png</file>
+    <file>telephone.png</file>
+    <file>name.png</file>
+    <file>Sign_up widget.png</file>
+    <file>Sign_up widget.png</file>
+    <file>barista_user.png</file>
+    <file>card flat.png</file>
+    <file>card caramel.png</file>
+    <file>matcha fusion.png</file>
+    <file>card coffe mocha.png</file>
+    <file>pesanan_Caffè Americano.png</file>
+    <file>card Caffè Americano.png</file>
+    <file>pesanan_Caffè Americano.png</file>
+    <file>pesanan_Caffè Americano.png</file>
+    <file>close.png</file>
+    <file>quantity.png</file>
+    <file>member.png</file>
+    <file>pesanan_capuccino.png</file>
+    <file>Cappuccino.jpg</file>
+    <file>Caramel Macchiato.jpg</file>
+    <file>Flat White.jpg</file>
+    <file>Caffè Americano.jpg</file>
+    <file>Iced Espresso &amp; Matcha Fusion.jpg</file>
+    <file>Iced Espresso &amp; Matcha Fusion.jpg</file>
+    <file>barista.png</file>
+    <file>barista.png</file>
+    <file>delete.png</file>
+    <file>card-pack3.png</file>
+    <file>card-pack2.png</file>
+    <file>logout.png</file>
+    <file>card-pack.png</file>
+    <file>coffe.png</file>
+    <file>lock.png</file>
+    <file>barista.png</file>
+    <file>user_login.png</file>
+    <file>frame.png</file>
+    <file>orderrbg.png</file>
+    <file>penjualanrbg.png</file>
+    <file>user.png</file>
+    <file>arrow back.png</file>
+    <file>Caffè Mocha.png</file>
+  </qresource>
+</RCC>

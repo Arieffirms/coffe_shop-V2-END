@@ -1,0 +1,4797 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1363</width>
+    <height>762</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QStackedWidget" name="stackedWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1371</width>
+     <height>771</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>1</number>
+   </property>
+   <widget class="QWidget" name="page">
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>670</x>
+       <y>-10</y>
+       <width>741</width>
+       <height>781</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="../images/source.qrc">:/Images/frame.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QCommandLinkButton" name="commandLinkButton">
+     <property name="geometry">
+      <rect>
+       <x>336</x>
+       <y>550</y>
+       <width>141</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string> Daftar sekarang!</string>
+     </property>
+     <property name="icon">
+      <iconset theme="a">
+       <normaloff>.</normaloff>.</iconset>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>410</y>
+       <width>31</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="../images/source.qrc">:/Images/lock.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_9">
+     <property name="geometry">
+      <rect>
+       <x>820</x>
+       <y>30</y>
+       <width>551</width>
+       <height>711</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>22</pointsize>
+       <weight>75</weight>
+       <italic>false</italic>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:white;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="../images/source.qrc">:/Images/barista.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>340</y>
+       <width>31</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">backround-color:rgba(82, 82, 82, 1);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="../images/source.qrc">:/Images/user_login.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_14">
+     <property name="geometry">
+      <rect>
+       <x>226</x>
+       <y>540</y>
+       <width>121</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>11</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Tidak punya akun?</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>286</x>
+       <y>160</y>
+       <width>111</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>26</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>LOGIN</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_login">
+     <property name="geometry">
+      <rect>
+       <x>256</x>
+       <y>490</y>
+       <width>171</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>14</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    background-color: rgba(145, 129, 244, 1);
+    border-radius: 16px;
+    color: white;
+
+}
+
+QPushButton:pressed {
+      color: white;
+    background-color: rgba(240, 237, 255, 0.8);
+    color: rgba(145, 129, 244, 1);
+}</string>
+     </property>
+     <property name="text">
+      <string>LOGIN</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>681</width>
+       <height>771</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: white;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="password">
+     <property name="geometry">
+      <rect>
+       <x>156</x>
+       <y>400</y>
+       <width>364</width>
+       <height>52</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:rgba(240, 237, 255, 0.8);
+border-radius: 16px;
+padding-left:50px</string>
+     </property>
+     <property name="echoMode">
+      <enum>QLineEdit::Password</enum>
+     </property>
+     <property name="placeholderText">
+      <string>Password</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>680</x>
+       <y>10</y>
+       <width>691</width>
+       <height>761</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:rgba(145, 129, 244, 1)</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_13">
+     <property name="geometry">
+      <rect>
+       <x>261</x>
+       <y>271</y>
+       <width>161</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:rgba(82, 82, 82, 1);</string>
+     </property>
+     <property name="text">
+      <string>Get started login</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="username">
+     <property name="geometry">
+      <rect>
+       <x>156</x>
+       <y>330</y>
+       <width>364</width>
+       <height>52</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:rgba(240, 237, 255, 0.8);
+border-radius: 16px;
+padding-left:50px</string>
+     </property>
+     <property name="placeholderText">
+      <string>Username</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_15">
+     <property name="geometry">
+      <rect>
+       <x>240</x>
+       <y>57</y>
+       <width>111</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial Black</family>
+       <pointsize>20</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>C   FFE</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_16">
+     <property name="geometry">
+      <rect>
+       <x>303</x>
+       <y>87</y>
+       <width>141</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial Black</family>
+       <pointsize>20</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>RAPIETS</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_17">
+     <property name="geometry">
+      <rect>
+       <x>263</x>
+       <y>60</y>
+       <width>31</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial Black</family>
+       <pointsize>20</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="../images/source.qrc">:/Images/coffe.png</pixmap>
+     </property>
+    </widget>
+    <widget class="QWidget" name="widget" native="true">
+     <property name="geometry">
+      <rect>
+       <x>510</x>
+       <y>30</y>
+       <width>421</width>
+       <height>659</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <widget class="QLabel" name="label_48">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>-80</y>
+        <width>441</width>
+        <height>821</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="../images/source.qrc">:/Images/Sign_up widget.png</pixmap>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="username_2">
+      <property name="geometry">
+       <rect>
+        <x>52</x>
+        <y>172</y>
+        <width>323</width>
+        <height>42</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgba(200, 200, 200, 1);
+border-radius: 10px;
+padding-left:50px;</string>
+      </property>
+      <property name="placeholderText">
+       <string>Nama</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="username_3">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>260</y>
+        <width>323</width>
+        <height>42</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgba(200, 200, 200, 1);
+border-radius: 10px;
+padding-left:50px</string>
+      </property>
+      <property name="placeholderText">
+       <string>Username</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="username_4">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>340</y>
+        <width>323</width>
+        <height>42</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgba(200, 200, 200, 1);
+border-radius: 10px;
+padding-left:50px</string>
+      </property>
+      <property name="placeholderText">
+       <string>No-Telp</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="username_5">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>420</y>
+        <width>323</width>
+        <height>42</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgba(200, 200, 200, 1);
+border-radius: 10px;
+padding-left:50px</string>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Password</enum>
+      </property>
+      <property name="placeholderText">
+       <string>Password</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="username_6">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>500</y>
+        <width>323</width>
+        <height>42</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgba(200, 200, 200, 1);
+border-radius: 10px;
+padding-left:50px</string>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Password</enum>
+      </property>
+      <property name="placeholderText">
+       <string>Password</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_49">
+      <property name="geometry">
+       <rect>
+        <x>63</x>
+        <y>266</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">backround-color:rgba(82, 82, 82, 1);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="../images/source.qrc">:/Images/user_login.png</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_50">
+      <property name="geometry">
+       <rect>
+        <x>62</x>
+        <y>424</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="../images/source.qrc">:/Images/lock.png</pixmap>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_51">
+      <property name="geometry">
+       <rect>
+        <x>62</x>
+        <y>505</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="../images/source.qrc">:/Images/lock.png</pixmap>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_login_2">
+      <property name="geometry">
+       <rect>
+        <x>47</x>
+        <y>590</y>
+        <width>331</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>14</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: rgba(145, 129, 244, 1);
+    border-radius: 10px;
+    color: white;
+
+}
+
+QPushButton:pressed {
+      color: white;
+    background-color: rgba(240, 237, 255, 0.8);
+    color: rgba(145, 129, 244, 1);
+}</string>
+      </property>
+      <property name="text">
+       <string>Sign-Up</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_52">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>176</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">backround-color:rgba(82, 82, 82, 1);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="../images/source.qrc">:/Images/name.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_53">
+      <property name="geometry">
+       <rect>
+        <x>64</x>
+        <y>351</y>
+        <width>21</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">backround-color:rgba(82, 82, 82, 1);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap resource="../images/source.qrc">:/Images/telephone.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QCommandLinkButton" name="commandLinkButton_9">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>17</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="../images/source.qrc">
+        <normaloff>:/Images/cancel.png</normaloff>:/Images/cancel.png</iconset>
+      </property>
+     </widget>
+     <zorder>label_48</zorder>
+     <zorder>username_3</zorder>
+     <zorder>username_4</zorder>
+     <zorder>username_5</zorder>
+     <zorder>username_6</zorder>
+     <zorder>label_49</zorder>
+     <zorder>label_50</zorder>
+     <zorder>label_51</zorder>
+     <zorder>pushButton_login_2</zorder>
+     <zorder>label_53</zorder>
+     <zorder>commandLinkButton_9</zorder>
+     <zorder>username_2</zorder>
+     <zorder>label_52</zorder>
+    </widget>
+    <zorder>label</zorder>
+    <zorder>label_4</zorder>
+    <zorder>label_2</zorder>
+    <zorder>commandLinkButton</zorder>
+    <zorder>pushButton_login</zorder>
+    <zorder>username</zorder>
+    <zorder>password</zorder>
+    <zorder>label_9</zorder>
+    <zorder>label_7</zorder>
+    <zorder>label_6</zorder>
+    <zorder>label_13</zorder>
+    <zorder>label_14</zorder>
+    <zorder>label_5</zorder>
+    <zorder>label_15</zorder>
+    <zorder>label_16</zorder>
+    <zorder>label_17</zorder>
+    <zorder>widget</zorder>
+   </widget>
+   <widget class="QWidget" name="page_2">
+    <widget class="QLabel" name="label_18">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>271</width>
+       <height>761</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:#313a46;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_19">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>100</y>
+       <width>131</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:white;</string>
+     </property>
+     <property name="text">
+      <string>Arif Firmansyah</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_20">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>120</y>
+       <width>211</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>10</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:rgba(255, 255, 255, 0.5);</string>
+     </property>
+     <property name="text">
+      <string>arieffirmansyah0731@gmail.com</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="home">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>180</y>
+       <width>231</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>14</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    border: none;
+    border-radius: 3px;
+    text-align: left;
+    padding: 8px 0 8px 15px;
+    color: #788596;
+}
+
+QPushButton:hover {
+    background-color: rgba(86, 101, 115, 0.5);
+}
+
+QPushButton:pressed{
+ background-color: rgba(86, 101, 115, 0.8);
+}
+QPushButton:focus {
+  	color: #fff;	
+}
+</string>
+     </property>
+     <property name="text">
+      <string>home</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="home_2">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>220</y>
+       <width>231</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>14</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    border: none;
+    border-radius: 3px;
+    text-align: left;
+    padding: 8px 0 8px 15px;
+    color: #788596;
+}
+
+QPushButton:hover {
+    background-color: rgba(86, 101, 115, 0.5);
+}
+
+QPushButton:pressed{
+ background-color: rgba(86, 101, 115, 0.8);
+}
+QPushButton:focus {
+  	color: #fff;	
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Product</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="home_3">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>300</y>
+       <width>231</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>14</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    border: none;
+    border-radius: 3px;
+    text-align: left;
+    padding: 8px 0 8px 15px;
+    color: #788596;
+}
+
+QPushButton:hover {
+    background-color: rgba(86, 101, 115, 0.5);
+}
+
+QPushButton:pressed{
+ background-color: rgba(86, 101, 115, 0.8);
+}
+QPushButton:focus {
+  	color: #fff;	
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Stock barang</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="home_4">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>260</y>
+       <width>231</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>14</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    border: none;
+    border-radius: 3px;
+    text-align: left;
+    padding: 8px 0 8px 15px;
+    color: #788596;
+}
+
+QPushButton:hover {
+    background-color: rgba(86, 101, 115, 0.5);
+}
+
+QPushButton:pressed{
+ background-color: rgba(86, 101, 115, 0.8);
+}
+QPushButton:focus {
+  	color: #fff;	
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Orders</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="home_5">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>710</y>
+       <width>91</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>11</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    border: none;
+    border-radius: 3px;
+    text-align: left;
+    padding: 8px 0 8px 15px;
+    color: #788596;
+}
+
+QPushButton:hover {
+    background-color: rgba(86, 101, 115, 0.5);
+}
+
+QPushButton:pressed{
+ background-color: rgba(86, 101, 115, 0.8);
+}
+QPushButton:focus {
+  	color: #fff;	
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Log-out</string>
+     </property>
+    </widget>
+    <widget class="QStackedWidget" name="stackedWidget_2">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>10</y>
+       <width>1101</width>
+       <height>751</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="page_4">
+      <widget class="QLabel" name="label_27">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>20</y>
+         <width>331</width>
+         <height>161</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="../images/source.qrc">:/Images/card-pack.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_28">
+       <property name="geometry">
+        <rect>
+         <x>390</x>
+         <y>20</y>
+         <width>331</width>
+         <height>161</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="../images/source.qrc">:/Images/card-pack2.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_29">
+       <property name="geometry">
+        <rect>
+         <x>750</x>
+         <y>20</y>
+         <width>331</width>
+         <height>161</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="../images/source.qrc">:/Images/card-pack3.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_21">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>76</y>
+         <width>201</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::LeftToRight</enum>
+       </property>
+       <property name="text">
+        <string>-</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_22">
+       <property name="geometry">
+        <rect>
+         <x>490</x>
+         <y>80</y>
+         <width>191</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::LeftToRight</enum>
+       </property>
+       <property name="text">
+        <string>Rp. -</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_23">
+       <property name="geometry">
+        <rect>
+         <x>850</x>
+         <y>80</y>
+         <width>191</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::LeftToRight</enum>
+       </property>
+       <property name="text">
+        <string>-</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QTableWidget" name="tableWidget">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>270</y>
+         <width>1021</width>
+         <height>401</height>
+        </rect>
+       </property>
+       <column>
+        <property name="text">
+         <string>id</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>id_member</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>nama</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>nama pesanan</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>quantity</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>harga</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>diskon</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>total harga</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>metode_pembayaran</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>uang customer</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>kembalian</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>waktu_pembuatan</string>
+        </property>
+       </column>
+      </widget>
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="geometry">
+        <rect>
+         <x>920</x>
+         <y>690</y>
+         <width>141</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>11</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+QPushButton {
+    border:2px solid black;
+	color: rgba(52, 71, 103, 1);
+	border-radius: 16px;
+
+}
+
+QPushButton:pressed{
+ border:2px solid green;
+ background-color: rgba(86, 101, 115, 0.8);
+color:white;
+}
+
+QPushButton:hover {
+    background-color: rgba(86, 101, 115, 0.5);
+}</string>
+       </property>
+       <property name="text">
+        <string>VIEW ALL</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_3">
+       <property name="geometry">
+        <rect>
+         <x>430</x>
+         <y>217</y>
+         <width>41</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>11</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+QPushButton {
+    border:2px solid black;
+	color: rgba(233, 31, 99, 1);
+	border-radius: 16px;
+}
+
+QPushButton:pressed{
+ border:2px solid red;
+ background-color: red;
+color:white;
+}
+
+QPushButton:hover {
+     background-color: rgba(86, 101, 115, 0.5);
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="../images/source.qrc">
+         <normaloff>:/Images/delete.png</normaloff>:/Images/delete.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_91">
+       <property name="geometry">
+        <rect>
+         <x>54</x>
+         <y>224</y>
+         <width>31</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">backround-color:rgba(82, 82, 82, 1);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="../images/source.qrc">:/Images/search-engine.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="username_15">
+       <property name="geometry">
+        <rect>
+         <x>44</x>
+         <y>218</y>
+         <width>323</width>
+         <height>42</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:rgba(200, 200, 200, 1);
+border-radius: 10px;
+padding-left:50px;</string>
+       </property>
+       <property name="placeholderText">
+        <string>Search</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_29">
+       <property name="geometry">
+        <rect>
+         <x>380</x>
+         <y>217</y>
+         <width>41</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>11</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+QPushButton {
+    border:2px solid black;
+	color: rgba(233, 31, 99, 1);
+	border-radius: 16px;
+}
+
+QPushButton:pressed{
+ border:2px solid red;
+ background-color: red;
+color:white;
+}
+
+QPushButton:hover {
+     background-color: rgba(86, 101, 115, 0.5);
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="../images/source.qrc">
+         <normaloff>:/Images/search.png</normaloff>:/Images/search.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>20</width>
+         <height>20</height>
+        </size>
+       </property>
+      </widget>
+      <zorder>label_27</zorder>
+      <zorder>label_28</zorder>
+      <zorder>label_29</zorder>
+      <zorder>label_21</zorder>
+      <zorder>label_22</zorder>
+      <zorder>label_23</zorder>
+      <zorder>tableWidget</zorder>
+      <zorder>pushButton_2</zorder>
+      <zorder>pushButton_3</zorder>
+      <zorder>username_15</zorder>
+      <zorder>label_91</zorder>
+      <zorder>pushButton_29</zorder>
+     </widget>
+     <widget class="QWidget" name="page_13">
+      <widget class="QLabel" name="label_58">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>130</y>
+         <width>981</width>
+         <height>541</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="../images/source.qrc">:/Images/list stock barang.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QCommandLinkButton" name="commandLinkButton_10">
+       <property name="geometry">
+        <rect>
+         <x>970</x>
+         <y>158</y>
+         <width>41</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="../images/source.qrc">
+         <normaloff>:/Images/add-barang.png</normaloff>:/Images/add-barang.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QCommandLinkButton" name="commandLinkButton_12">
+       <property name="geometry">
+        <rect>
+         <x>970</x>
+         <y>246</y>
+         <width>41</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="../images/source.qrc">
+         <normaloff>:/Images/add-barang.png</normaloff>:/Images/add-barang.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QCommandLinkButton" name="commandLinkButton_13">
+       <property name="geometry">
+        <rect>
+         <x>970</x>
+         <y>333</y>
+         <width>41</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="../images/source.qrc">
+         <normaloff>:/Images/add-barang.png</normaloff>:/Images/add-barang.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QCommandLinkButton" name="commandLinkButton_14">
+       <property name="geometry">
+        <rect>
+         <x>970</x>
+         <y>420</y>
+         <width>41</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="../images/source.qrc">
+         <normaloff>:/Images/add-barang.png</normaloff>:/Images/add-barang.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QCommandLinkButton" name="commandLinkButton_15">
+       <property name="geometry">
+        <rect>
+         <x>970</x>
+         <y>508</y>
+         <width>41</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="../images/source.qrc">
+         <normaloff>:/Images/add-barang.png</normaloff>:/Images/add-barang.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QCommandLinkButton" name="commandLinkButton_16">
+       <property name="geometry">
+        <rect>
+         <x>970</x>
+         <y>600</y>
+         <width>41</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="../images/source.qrc">
+         <normaloff>:/Images/add-barang.png</normaloff>:/Images/add-barang.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_59">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>90</y>
+         <width>131</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="../images/source.qrc">:/Images/LIST BARANG.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QStackedWidget" name="stackedWidget_4">
+       <property name="geometry">
+        <rect>
+         <x>260</x>
+         <y>280</y>
+         <width>531</width>
+         <height>211</height>
+        </rect>
+       </property>
+       <property name="currentIndex">
+        <number>2</number>
+       </property>
+       <widget class="QWidget" name="page_15">
+        <widget class="QLabel" name="label_78">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>531</width>
+           <height>211</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="../images/source.qrc">:/Images/tambah_barang_americano.png</pixmap>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="username_7">
+         <property name="geometry">
+          <rect>
+           <x>232</x>
+           <y>96</y>
+           <width>231</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Arial</family>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:rgba(200, 200, 200, 1);
+border-radius: 10px;
+padding-left:50px;</string>
+         </property>
+         <property name="placeholderText">
+          <string>Tambahkan Barang</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_79">
+         <property name="geometry">
+          <rect>
+           <x>246</x>
+           <y>102</y>
+           <width>21</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">backround-color:rgba(82, 82, 82, 1);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="../images/source.qrc">:/Images/name.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_21">
+         <property name="geometry">
+          <rect>
+           <x>230</x>
+           <y>150</y>
+           <width>81</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Arial</family>
+           <pointsize>12</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{
+background-color:rgba(237, 196, 44, 1);
+color:black;
+border-radius:10px;
+}
+
+QPushButton:pressed {
+      color: white;
+    background-color:black;
+    color:rgba(237, 196, 44, 1);
+}</string>
+         </property>
+         <property name="text">
+          <string>Tambah</string>
+         </property>
+        </widget>
+        <widget class="QCommandLinkButton" name="commandLinkButton_19">
+         <property name="geometry">
+          <rect>
+           <x>480</x>
+           <y>10</y>
+           <width>41</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="../images/source.qrc">
+           <normaloff>:/Images/close.png</normaloff>:/Images/close.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>30</width>
+           <height>30</height>
+          </size>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="page_16">
+        <widget class="QLabel" name="label_80">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>531</width>
+           <height>211</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="../images/source.qrc">:/Images/tambah_barang_cappuccino.png</pixmap>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="username_8">
+         <property name="geometry">
+          <rect>
+           <x>232</x>
+           <y>96</y>
+           <width>231</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Arial</family>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:rgba(200, 200, 200, 1);
+border-radius: 10px;
+padding-left:50px;</string>
+         </property>
+         <property name="placeholderText">
+          <string>Tambahkan Barang</string>
+         </property>
+        </widget>
+        <widget class="QCommandLinkButton" name="commandLinkButton_20">
+         <property name="geometry">
+          <rect>
+           <x>480</x>
+           <y>10</y>
+           <width>41</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="../images/source.qrc">
+           <normaloff>:/Images/close.png</normaloff>:/Images/close.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>30</width>
+           <height>30</height>
+          </size>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_22">
+         <property name="geometry">
+          <rect>
+           <x>230</x>
+           <y>150</y>
+           <width>81</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Arial</family>
+           <pointsize>12</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{
+background-color:rgba(237, 196, 44, 1);
+color:black;
+border-radius:10px;
+}
+
+QPushButton:pressed {
+      color: white;
+    background-color:black;
+    color:rgba(237, 196, 44, 1);
+}</string>
+         </property>
+         <property name="text">
+          <string>Tambah</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_82">
+         <property name="geometry">
+          <rect>
+           <x>250</x>
+           <y>100</y>
+           <width>21</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">backround-color:rgba(82, 82, 82, 1);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="../images/source.qrc">:/Images/name.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="page_20">
+        <widget class="QLineEdit" name="username_12">
+         <property name="geometry">
+          <rect>
+           <x>232</x>
+           <y>96</y>
+           <width>231</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Arial</family>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:rgba(200, 200, 200, 1);
+border-radius: 10px;
+padding-left:50px;</string>
+         </property>
+         <property name="placeholderText">
+          <string>Tambahkan Barang</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_88">
+         <property name="geometry">
+          <rect>
+           <x>250</x>
+           <y>100</y>
+           <width>21</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">backround-color:rgba(82, 82, 82, 1);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="../images/source.qrc">:/Images/name.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QCommandLinkButton" name="commandLinkButton_24">
+         <property name="geometry">
+          <rect>
+           <x>495</x>
+           <y>-6</y>
+           <width>41</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="../images/source.qrc">
+           <normaloff>:/Images/close.png</normaloff>:/Images/close.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>20</width>
+           <height>30</height>
+          </size>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_89">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>531</width>
+           <height>211</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="../images/source.qrc">:/Images/tambah_iced_expresso.png</pixmap>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_26">
+         <property name="geometry">
+          <rect>
+           <x>230</x>
+           <y>150</y>
+           <width>81</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Arial</family>
+           <pointsize>12</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{
+background-color:rgba(237, 196, 44, 1);
+color:black;
+border-radius:10px;
+}
+
+QPushButton:pressed {
+      color: white;
+    background-color:black;
+    color:rgba(237, 196, 44, 1);
+}</string>
+         </property>
+         <property name="text">
+          <string>Tambah</string>
+         </property>
+        </widget>
+        <zorder>label_89</zorder>
+        <zorder>commandLinkButton_24</zorder>
+        <zorder>pushButton_26</zorder>
+        <zorder>username_12</zorder>
+        <zorder>label_88</zorder>
+       </widget>
+       <widget class="QWidget" name="page_19">
+        <widget class="QLineEdit" name="username_11">
+         <property name="geometry">
+          <rect>
+           <x>232</x>
+           <y>96</y>
+           <width>231</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Arial</family>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:rgba(200, 200, 200, 1);
+border-radius: 10px;
+padding-left:50px;</string>
+         </property>
+         <property name="placeholderText">
+          <string>Tambahkan Barang</string>
+         </property>
+        </widget>
+        <widget class="QCommandLinkButton" name="commandLinkButton_23">
+         <property name="geometry">
+          <rect>
+           <x>480</x>
+           <y>10</y>
+           <width>41</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="../images/source.qrc">
+           <normaloff>:/Images/close.png</normaloff>:/Images/close.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>30</width>
+           <height>30</height>
+          </size>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_87">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>531</width>
+           <height>211</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="../images/source.qrc">:/Images/tambah_flat_white.png</pixmap>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_25">
+         <property name="geometry">
+          <rect>
+           <x>230</x>
+           <y>150</y>
+           <width>81</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Arial</family>
+           <pointsize>12</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{
+background-color:rgba(237, 196, 44, 1);
+color:black;
+border-radius:10px;
+}
+
+QPushButton:pressed {
+      color: white;
+    background-color:black;
+    color:rgba(237, 196, 44, 1);
+}</string>
+         </property>
+         <property name="text">
+          <string>Tambah</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_86">
+         <property name="geometry">
+          <rect>
+           <x>250</x>
+           <y>100</y>
+           <width>21</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">backround-color:rgba(82, 82, 82, 1);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="../images/source.qrc">:/Images/name.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <zorder>label_87</zorder>
+        <zorder>commandLinkButton_23</zorder>
+        <zorder>pushButton_25</zorder>
+        <zorder>username_11</zorder>
+        <zorder>label_86</zorder>
+       </widget>
+       <widget class="QWidget" name="page_18">
+        <widget class="QLineEdit" name="username_10">
+         <property name="geometry">
+          <rect>
+           <x>232</x>
+           <y>96</y>
+           <width>231</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Arial</family>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:rgba(200, 200, 200, 1);
+border-radius: 10px;
+padding-left:50px;</string>
+         </property>
+         <property name="placeholderText">
+          <string>Tambahkan Barang</string>
+         </property>
+        </widget>
+        <widget class="QCommandLinkButton" name="commandLinkButton_22">
+         <property name="geometry">
+          <rect>
+           <x>480</x>
+           <y>10</y>
+           <width>41</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="../images/source.qrc">
+           <normaloff>:/Images/close.png</normaloff>:/Images/close.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>30</width>
+           <height>30</height>
+          </size>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_84">
+         <property name="geometry">
+          <rect>
+           <x>250</x>
+           <y>100</y>
+           <width>21</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">backround-color:rgba(82, 82, 82, 1);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="../images/source.qrc">:/Images/name.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_24">
+         <property name="geometry">
+          <rect>
+           <x>230</x>
+           <y>150</y>
+           <width>81</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Arial</family>
+           <pointsize>12</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{
+background-color:rgba(237, 196, 44, 1);
+color:black;
+border-radius:10px;
+}
+
+QPushButton:pressed {
+      color: white;
+    background-color:black;
+    color:rgba(237, 196, 44, 1);
+}</string>
+         </property>
+         <property name="text">
+          <string>Tambah</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_85">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>531</width>
+           <height>211</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="../images/source.qrc">:/Images/tambah_caramel_machiato.png</pixmap>
+         </property>
+        </widget>
+        <zorder>label_85</zorder>
+        <zorder>username_10</zorder>
+        <zorder>label_84</zorder>
+        <zorder>pushButton_24</zorder>
+        <zorder>commandLinkButton_22</zorder>
+       </widget>
+       <widget class="QWidget" name="page_17">
+        <widget class="QLabel" name="label_81">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>531</width>
+           <height>211</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="../images/source.qrc">:/Images/tambah_caffe_mocha.png</pixmap>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="username_9">
+         <property name="geometry">
+          <rect>
+           <x>232</x>
+           <y>96</y>
+           <width>231</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Arial</family>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:rgba(200, 200, 200, 1);
+border-radius: 10px;
+padding-left:50px;</string>
+         </property>
+         <property name="placeholderText">
+          <string>Tambahkan Barang</string>
+         </property>
+        </widget>
+        <widget class="QCommandLinkButton" name="commandLinkButton_21">
+         <property name="geometry">
+          <rect>
+           <x>480</x>
+           <y>10</y>
+           <width>41</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="../images/source.qrc">
+           <normaloff>:/Images/close.png</normaloff>:/Images/close.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>30</width>
+           <height>30</height>
+          </size>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_23">
+         <property name="geometry">
+          <rect>
+           <x>230</x>
+           <y>150</y>
+           <width>81</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Arial</family>
+           <pointsize>12</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{
+background-color:rgba(237, 196, 44, 1);
+color:black;
+border-radius:10px;
+}
+
+QPushButton:pressed {
+      color: white;
+    background-color:black;
+    color:rgba(237, 196, 44, 1);
+}</string>
+         </property>
+         <property name="text">
+          <string>Tambah</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_83">
+         <property name="geometry">
+          <rect>
+           <x>250</x>
+           <y>100</y>
+           <width>21</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">backround-color:rgba(82, 82, 82, 1);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="../images/source.qrc">:/Images/name.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="page_14">
+      <widget class="QTableWidget" name="tableWidget_4">
+       <property name="geometry">
+        <rect>
+         <x>160</x>
+         <y>170</y>
+         <width>761</width>
+         <height>391</height>
+        </rect>
+       </property>
+       <column>
+        <property name="text">
+         <string>Id Member</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Nama</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Waktu Pembuatan</string>
+        </property>
+       </column>
+      </widget>
+      <widget class="QLineEdit" name="username_13">
+       <property name="geometry">
+        <rect>
+         <x>162</x>
+         <y>116</y>
+         <width>323</width>
+         <height>42</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:rgba(200, 200, 200, 1);
+border-radius: 10px;
+padding-left:50px;</string>
+       </property>
+       <property name="placeholderText">
+        <string>Nama</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_74">
+       <property name="geometry">
+        <rect>
+         <x>170</x>
+         <y>120</y>
+         <width>31</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">backround-color:rgba(82, 82, 82, 1);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="../images/source.qrc">:/Images/name.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_4">
+       <property name="geometry">
+        <rect>
+         <x>490</x>
+         <y>116</y>
+         <width>51</width>
+         <height>42</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+background-color:rgba(150, 200, 200, 1);
+border-radius: 5px;
+
+}
+
+QPushButton:pressed {
+      color: white;
+    background-color: rgba(240, 237, 255, 0.8);
+    color: rgba(145, 129, 244, 1);
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="../images/source.qrc">
+         <normaloff>:/Images/search-engine.png</normaloff>:/Images/search-engine.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QCommandLinkButton" name="commandLinkButton_11">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>560</y>
+         <width>61</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI</family>
+         <pointsize>9</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>DISINI</string>
+       </property>
+       <property name="icon">
+        <iconset theme="1">
+         <normaloff>.</normaloff>.</iconset>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_75">
+       <property name="geometry">
+        <rect>
+         <x>163</x>
+         <y>567</y>
+         <width>101</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Create Id Member </string>
+       </property>
+      </widget>
+      <widget class="QWidget" name="widget_3" native="true">
+       <property name="geometry">
+        <rect>
+         <x>320</x>
+         <y>240</y>
+         <width>461</width>
+         <height>231</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:grey;
+border-radius:10px;</string>
+       </property>
+       <widget class="QLabel" name="label_76">
+        <property name="geometry">
+         <rect>
+          <x>78</x>
+          <y>94</y>
+          <width>31</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">backround-color:rgba(82, 82, 82, 1);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap resource="../images/source.qrc">:/Images/name.png</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="username_14">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>90</y>
+          <width>323</width>
+          <height>42</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color:rgba(200, 200, 200, 1);
+border-radius: 10px;
+padding-left:50px;</string>
+        </property>
+        <property name="placeholderText">
+         <string>Nama</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_27">
+        <property name="geometry">
+         <rect>
+          <x>320</x>
+          <y>140</y>
+          <width>71</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+    background-color: rgba(145, 129, 244, 1);
+    border-radius: 10px;
+    color: white;
+
+}
+
+QPushButton:pressed {
+      color: white;
+    background-color: rgba(240, 237, 255, 0.8);
+    color: rgba(145, 129, 244, 1);
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="../images/source.qrc">
+          <normaloff>:/Images/create_akun.png</normaloff>:/Images/create_akun.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>20</width>
+          <height>30</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_77">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>60</y>
+          <width>161</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color:rgb(255, 255, 255)</string>
+        </property>
+        <property name="text">
+         <string>Create Id Member </string>
+        </property>
+       </widget>
+       <widget class="QCommandLinkButton" name="commandLinkButton_25">
+        <property name="geometry">
+         <rect>
+          <x>410</x>
+          <y>0</y>
+          <width>41</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="../images/source.qrc">
+          <normaloff>:/Images/close.png</normaloff>:/Images/close.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>30</width>
+          <height>30</height>
+         </size>
+        </property>
+       </widget>
+       <zorder>username_14</zorder>
+       <zorder>pushButton_27</zorder>
+       <zorder>label_77</zorder>
+       <zorder>commandLinkButton_25</zorder>
+       <zorder>label_76</zorder>
+      </widget>
+      <widget class="QPushButton" name="pushButton_28">
+       <property name="geometry">
+        <rect>
+         <x>550</x>
+         <y>116</y>
+         <width>51</width>
+         <height>42</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+background-color:rgba(150, 200, 200, 1);
+border-radius: 5px;
+
+}
+
+QPushButton:pressed {
+      color: white;
+    background-color: red;
+    color: rgba(145, 129, 244, 1);
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="../images/source.qrc">
+         <normaloff>:/Images/delete.png</normaloff>:/Images/delete.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>30</width>
+         <height>30</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_90">
+       <property name="geometry">
+        <rect>
+         <x>166</x>
+         <y>84</y>
+         <width>131</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI</family>
+         <pointsize>12</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:BLACK;</string>
+       </property>
+       <property name="text">
+        <string>LIST MEMBER</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="page_5">
+      <widget class="QLabel" name="label_8">
+       <property name="geometry">
+        <rect>
+         <x>420</x>
+         <y>30</y>
+         <width>251</width>
+         <height>341</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="../images/source.qrc">:/Images/Iced Espresso &amp; Matcha Fusion.jpg</pixmap>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_10">
+       <property name="geometry">
+        <rect>
+         <x>700</x>
+         <y>30</y>
+         <width>251</width>
+         <height>341</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="../images/source.qrc">:/Images/card Caffè Americano.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_11">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>370</y>
+         <width>261</width>
+         <height>361</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="../images/source.qrc">:/Images/Flat White.jpg</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_12">
+       <property name="geometry">
+        <rect>
+         <x>420</x>
+         <y>380</y>
+         <width>261</width>
+         <height>341</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="../images/source.qrc">:/Images/Caramel Macchiato.jpg</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_24">
+       <property name="geometry">
+        <rect>
+         <x>701</x>
+         <y>378</y>
+         <width>251</width>
+         <height>351</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="../images/source.qrc">:/Images/Cappuccino.jpg</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>false</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_3">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>0</y>
+         <width>291</width>
+         <height>401</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap resource="../images/source.qrc">:/Images/Group 2.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_11">
+       <property name="geometry">
+        <rect>
+         <x>145</x>
+         <y>309</y>
+         <width>211</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton
+{
+border: 2px solid black;
+border-radius: 16px;}
+
+QPushButton:hover {
+    background-color: rgba(86, 101, 115, 0.5);
+}
+
+QPushButton:pressed{
+ background-color: rgba(86, 101, 115, 0.8);
+}</string>
+       </property>
+       <property name="text">
+        <string>Add Chart</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_12">
+       <property name="geometry">
+        <rect>
+         <x>437</x>
+         <y>309</y>
+         <width>211</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton
+{
+border: 2px solid black;
+border-radius: 16px;}
+
+QPushButton:hover {
+    background-color: rgba(86, 101, 115, 0.5);
+}
+
+QPushButton:pressed{
+ background-color: rgba(86, 101, 115, 0.8);
+}</string>
+       </property>
+       <property name="text">
+        <string>Add Chart</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_13">
+       <property name="geometry">
+        <rect>
+         <x>146</x>
+         <y>660</y>
+         <width>211</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton
+{
+border: 2px solid black;
+border-radius: 16px;}
+
+QPushButton:hover {
+    background-color: rgba(86, 101, 115, 0.5);
+}
+
+QPushButton:pressed{
+ background-color: rgba(86, 101, 115, 0.8);
+}</string>
+       </property>
+       <property name="text">
+        <string>Add Chart</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_14">
+       <property name="geometry">
+        <rect>
+         <x>436</x>
+         <y>660</y>
+         <width>211</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton
+{
+border: 2px solid black;
+border-radius: 16px;}
+
+QPushButton:hover {
+    background-color: rgba(86, 101, 115, 0.5);
+}
+
+QPushButton:pressed{
+ background-color: rgba(86, 101, 115, 0.8);
+}</string>
+       </property>
+       <property name="text">
+        <string>Add Chart</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_15">
+       <property name="geometry">
+        <rect>
+         <x>716</x>
+         <y>660</y>
+         <width>211</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton
+{
+border: 2px solid black;
+border-radius: 16px;}
+
+QPushButton:hover {
+    background-color: rgba(86, 101, 115, 0.5);
+}
+
+QPushButton:pressed{
+ background-color: rgba(86, 101, 115, 0.8);
+}</string>
+       </property>
+       <property name="text">
+        <string>Add Chart</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_16">
+       <property name="geometry">
+        <rect>
+         <x>715</x>
+         <y>309</y>
+         <width>211</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton
+{
+border: 2px solid black;
+border-radius: 16px;}
+
+QPushButton:hover {
+    background-color: rgba(86, 101, 115, 0.5);
+}
+
+QPushButton:pressed{
+ background-color: rgba(86, 101, 115, 0.8);
+}</string>
+       </property>
+       <property name="text">
+        <string>Add Chart</string>
+       </property>
+      </widget>
+      <widget class="QStackedWidget" name="stackedWidget_3">
+       <property name="geometry">
+        <rect>
+         <x>170</x>
+         <y>110</y>
+         <width>731</width>
+         <height>531</height>
+        </rect>
+       </property>
+       <property name="currentIndex">
+        <number>4</number>
+       </property>
+       <widget class="QWidget" name="page_6">
+        <widget class="QLabel" name="label_25">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>731</width>
+           <height>531</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="../images/source.qrc">:/Images/pesanan_Caffè Americano.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit">
+         <property name="geometry">
+          <rect>
+           <x>420</x>
+           <y>190</y>
+           <width>261</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Arial</family>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:rgba(38, 39, 42, 1);
+border-radius: 16px;
+padding-left:50px;
+color:white;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="placeholderText">
+          <string>mbr231523rco</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_26">
+         <property name="geometry">
+          <rect>
+           <x>430</x>
+           <y>195</y>
+           <width>31</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">backround-color:rgba(82, 82, 82, 1);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="../images/source.qrc">:/Images/member.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_3">
+         <property name="geometry">
+          <rect>
+           <x>420</x>
+           <y>270</y>
+           <width>261</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Arial</family>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:rgba(38, 39, 42, 1);
+border-radius: 16px;
+padding-left:50px;
+color:white;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="placeholderText">
+          <string>Quantity</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_34">
+         <property name="geometry">
+          <rect>
+           <x>430</x>
+           <y>274</y>
+           <width>31</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">backround-color:rgba(82, 82, 82, 1);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="../images/source.qrc">:/Images/quantity.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QCommandLinkButton" name="commandLinkButton_4">
+         <property name="geometry">
+          <rect>
+           <x>672</x>
+           <y>17</y>
+           <width>41</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="../images/source.qrc">
+           <normaloff>:/Images/close.png</normaloff>:/Images/close.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>30</width>
+           <height>30</height>
+          </size>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_6">
+         <property name="geometry">
+          <rect>
+           <x>420</x>
+           <y>190</y>
+           <width>261</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Arial</family>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:rgba(38, 39, 42, 1);
+border-radius: 16px;
+padding-left:50px;
+color:white;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="placeholderText">
+          <string>mbr231523rco</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_6">
+         <property name="geometry">
+          <rect>
+           <x>410</x>
+           <y>350</y>
+           <width>281</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Arial</family>
+           <pointsize>12</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{
+background-color:rgba(237, 196, 44, 1);
+color:black;
+border-radius:20px;
+}
+
+QPushButton:pressed {
+      color: white;
+    background-color:black;
+    color:rgba(237, 196, 44, 1);
+}</string>
+         </property>
+         <property name="text">
+          <string>Orders</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_68">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>10</y>
+           <width>51</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="../images/source.qrc">:/Images/lingkaran.png</pixmap>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_69">
+         <property name="geometry">
+          <rect>
+           <x>29</x>
+           <y>27</y>
+           <width>31</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>11</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <zorder>label_25</zorder>
+        <zorder>pushButton_6</zorder>
+        <zorder>commandLinkButton_4</zorder>
+        <zorder>lineEdit_6</zorder>
+        <zorder>lineEdit</zorder>
+        <zorder>lineEdit_3</zorder>
+        <zorder>label_34</zorder>
+        <zorder>label_26</zorder>
+        <zorder>label_68</zorder>
+        <zorder>label_69</zorder>
+       </widget>
+       <widget class="QWidget" name="page_7">
+        <widget class="QLabel" name="label_31">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>731</width>
+           <height>531</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="../images/source.qrc">:/Images/pesanan_capuccino.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_32">
+         <property name="geometry">
+          <rect>
+           <x>430</x>
+           <y>270</y>
+           <width>31</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">backround-color:rgba(82, 82, 82, 1);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="../images/source.qrc">:/Images/quantity.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_4">
+         <property name="geometry">
+          <rect>
+           <x>420</x>
+           <y>265</y>
+           <width>261</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Arial</family>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:rgba(38, 39, 42, 1);
+border-radius: 16px;
+padding-left:50px;
+color:white;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="placeholderText">
+          <string>Quantity</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_5">
+         <property name="geometry">
+          <rect>
+           <x>410</x>
+           <y>350</y>
+           <width>281</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Arial</family>
+           <pointsize>12</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{
+background-color:rgba(237, 196, 44, 1);
+color:black;
+border-radius:20px;
+}
+
+QPushButton:pressed {
+      color: white;
+    background-color:black;
+    color:rgba(237, 196, 44, 1);
+}</string>
+         </property>
+         <property name="text">
+          <string>Orders</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_2">
+         <property name="geometry">
+          <rect>
+           <x>420</x>
+           <y>190</y>
+           <width>261</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Arial</family>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:rgba(38, 39, 42, 1);
+border-radius: 16px;
+padding-left:50px;
+color:white;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="placeholderText">
+          <string>mbr231523rco</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_33">
+         <property name="geometry">
+          <rect>
+           <x>430</x>
+           <y>195</y>
+           <width>31</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">backround-color:rgba(82, 82, 82, 1);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="../images/source.qrc">:/Images/member.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QCommandLinkButton" name="commandLinkButton_3">
+         <property name="geometry">
+          <rect>
+           <x>672</x>
+           <y>17</y>
+           <width>41</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="../images/source.qrc">
+           <normaloff>:/Images/close.png</normaloff>:/Images/close.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>30</width>
+           <height>30</height>
+          </size>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_70">
+         <property name="geometry">
+          <rect>
+           <x>21</x>
+           <y>13</y>
+           <width>51</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="../images/source.qrc">:/Images/lingkaran.png</pixmap>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_71">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>30</y>
+           <width>31</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>11</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <zorder>label_31</zorder>
+        <zorder>pushButton_5</zorder>
+        <zorder>lineEdit_2</zorder>
+        <zorder>label_33</zorder>
+        <zorder>commandLinkButton_3</zorder>
+        <zorder>lineEdit_4</zorder>
+        <zorder>label_32</zorder>
+        <zorder>label_70</zorder>
+        <zorder>label_71</zorder>
+       </widget>
+       <widget class="QWidget" name="page_8">
+        <widget class="QLabel" name="label_36">
+         <property name="geometry">
+          <rect>
+           <x>428</x>
+           <y>273</y>
+           <width>31</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">backround-color:rgba(82, 82, 82, 1);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="../images/source.qrc">:/Images/quantity.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_5">
+         <property name="geometry">
+          <rect>
+           <x>418</x>
+           <y>193</y>
+           <width>261</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Arial</family>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:rgba(38, 39, 42, 1);
+border-radius: 16px;
+padding-left:50px;
+color:white;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="placeholderText">
+          <string>mbr231523rco</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_37">
+         <property name="geometry">
+          <rect>
+           <x>428</x>
+           <y>198</y>
+           <width>31</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">backround-color:rgba(82, 82, 82, 1);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="../images/source.qrc">:/Images/member.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_7">
+         <property name="geometry">
+          <rect>
+           <x>408</x>
+           <y>353</y>
+           <width>281</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Arial</family>
+           <pointsize>12</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{
+background-color:rgba(237, 196, 44, 1);
+color:black;
+border-radius:20px;
+}
+
+QPushButton:pressed {
+      color: white;
+    background-color:black;
+    color:rgba(237, 196, 44, 1);
+}</string>
+         </property>
+         <property name="text">
+          <string>Orders</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_38">
+         <property name="geometry">
+          <rect>
+           <x>-2</x>
+           <y>0</y>
+           <width>741</width>
+           <height>531</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="../images/source.qrc">:/Images/Caffè Mocha.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_7">
+         <property name="geometry">
+          <rect>
+           <x>418</x>
+           <y>268</y>
+           <width>261</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Arial</family>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:rgba(38, 39, 42, 1);
+border-radius: 16px;
+padding-left:50px;
+color:white;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="placeholderText">
+          <string>Quantity</string>
+         </property>
+        </widget>
+        <widget class="QCommandLinkButton" name="commandLinkButton_5">
+         <property name="geometry">
+          <rect>
+           <x>670</x>
+           <y>20</y>
+           <width>41</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="../images/source.qrc">
+           <normaloff>:/Images/close.png</normaloff>:/Images/close.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>30</width>
+           <height>30</height>
+          </size>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_60">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>10</y>
+           <width>51</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="../images/source.qrc">:/Images/lingkaran.png</pixmap>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_61">
+         <property name="geometry">
+          <rect>
+           <x>29</x>
+           <y>27</y>
+           <width>31</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>11</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <zorder>label_38</zorder>
+        <zorder>commandLinkButton_5</zorder>
+        <zorder>label_60</zorder>
+        <zorder>label_61</zorder>
+        <zorder>lineEdit_7</zorder>
+        <zorder>lineEdit_5</zorder>
+        <zorder>label_36</zorder>
+        <zorder>label_37</zorder>
+        <zorder>pushButton_7</zorder>
+       </widget>
+       <widget class="QWidget" name="page_10">
+        <widget class="QLineEdit" name="lineEdit_10">
+         <property name="geometry">
+          <rect>
+           <x>420</x>
+           <y>265</y>
+           <width>261</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Arial</family>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:rgba(38, 39, 42, 1);
+border-radius: 16px;
+padding-left:50px;
+color:white;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="placeholderText">
+          <string>Quantity</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_9">
+         <property name="geometry">
+          <rect>
+           <x>410</x>
+           <y>350</y>
+           <width>281</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Arial</family>
+           <pointsize>12</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{
+background-color:rgba(237, 196, 44, 1);
+color:black;
+border-radius:20px;
+}
+
+QPushButton:pressed {
+      color: white;
+    background-color:black;
+    color:rgba(237, 196, 44, 1);
+}</string>
+         </property>
+         <property name="text">
+          <string>Orders</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_11">
+         <property name="geometry">
+          <rect>
+           <x>420</x>
+           <y>190</y>
+           <width>261</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Arial</family>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:rgba(38, 39, 42, 1);
+border-radius: 16px;
+padding-left:50px;
+color:white;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="placeholderText">
+          <string>mbr231523rco</string>
+         </property>
+        </widget>
+        <widget class="QCommandLinkButton" name="commandLinkButton_6">
+         <property name="geometry">
+          <rect>
+           <x>672</x>
+           <y>17</y>
+           <width>41</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="../images/source.qrc">
+           <normaloff>:/Images/close.png</normaloff>:/Images/close.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>30</width>
+           <height>30</height>
+          </size>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_42">
+         <property name="geometry">
+          <rect>
+           <x>430</x>
+           <y>195</y>
+           <width>31</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">backround-color:rgba(82, 82, 82, 1);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="../images/source.qrc">:/Images/member.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_43">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>-3</y>
+           <width>731</width>
+           <height>531</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="../images/source.qrc">:/Images/card caramel.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_44">
+         <property name="geometry">
+          <rect>
+           <x>430</x>
+           <y>270</y>
+           <width>31</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">backround-color:rgba(82, 82, 82, 1);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="../images/source.qrc">:/Images/quantity.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_62">
+         <property name="geometry">
+          <rect>
+           <x>21</x>
+           <y>13</y>
+           <width>51</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="../images/source.qrc">:/Images/lingkaran.png</pixmap>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_63">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>30</y>
+           <width>31</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>11</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <zorder>label_43</zorder>
+        <zorder>lineEdit_10</zorder>
+        <zorder>pushButton_9</zorder>
+        <zorder>lineEdit_11</zorder>
+        <zorder>commandLinkButton_6</zorder>
+        <zorder>label_42</zorder>
+        <zorder>label_44</zorder>
+        <zorder>label_62</zorder>
+        <zorder>label_63</zorder>
+       </widget>
+       <widget class="QWidget" name="page_9">
+        <widget class="QPushButton" name="pushButton_8">
+         <property name="geometry">
+          <rect>
+           <x>410</x>
+           <y>350</y>
+           <width>281</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Arial</family>
+           <pointsize>12</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{
+background-color:rgba(237, 196, 44, 1);
+color:black;
+border-radius:20px;
+}
+
+QPushButton:pressed {
+      color: white;
+    background-color:black;
+    color:rgba(237, 196, 44, 1);
+}</string>
+         </property>
+         <property name="text">
+          <string>Orders</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_8">
+         <property name="geometry">
+          <rect>
+           <x>420</x>
+           <y>265</y>
+           <width>261</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Arial</family>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:rgba(38, 39, 42, 1);
+border-radius: 16px;
+padding-left:50px;
+color:white;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="placeholderText">
+          <string>Quantity</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_9">
+         <property name="geometry">
+          <rect>
+           <x>420</x>
+           <y>190</y>
+           <width>261</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Arial</family>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:rgba(38, 39, 42, 1);
+border-radius: 16px;
+padding-left:50px;
+color:white;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="placeholderText">
+          <string>mbr231523rco</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_39">
+         <property name="geometry">
+          <rect>
+           <x>430</x>
+           <y>195</y>
+           <width>31</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">backround-color:rgba(82, 82, 82, 1);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="../images/source.qrc">:/Images/member.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_40">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>-3</y>
+           <width>731</width>
+           <height>531</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="../images/source.qrc">:/Images/matcha fusion.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_41">
+         <property name="geometry">
+          <rect>
+           <x>430</x>
+           <y>270</y>
+           <width>31</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">backround-color:rgba(82, 82, 82, 1);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="../images/source.qrc">:/Images/quantity.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QCommandLinkButton" name="commandLinkButton_7">
+         <property name="geometry">
+          <rect>
+           <x>680</x>
+           <y>10</y>
+           <width>41</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="../images/source.qrc">
+           <normaloff>:/Images/close.png</normaloff>:/Images/close.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>30</width>
+           <height>30</height>
+          </size>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_64">
+         <property name="geometry">
+          <rect>
+           <x>21</x>
+           <y>13</y>
+           <width>51</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="../images/source.qrc">:/Images/lingkaran.png</pixmap>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_65">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>30</y>
+           <width>31</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>11</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <zorder>label_40</zorder>
+        <zorder>pushButton_8</zorder>
+        <zorder>lineEdit_8</zorder>
+        <zorder>lineEdit_9</zorder>
+        <zorder>label_39</zorder>
+        <zorder>label_41</zorder>
+        <zorder>commandLinkButton_7</zorder>
+        <zorder>label_64</zorder>
+        <zorder>label_65</zorder>
+       </widget>
+       <widget class="QWidget" name="page_11">
+        <widget class="QPushButton" name="pushButton_10">
+         <property name="geometry">
+          <rect>
+           <x>410</x>
+           <y>355</y>
+           <width>281</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Arial</family>
+           <pointsize>12</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton{
+background-color:rgba(237, 196, 44, 1);
+color:black;
+border-radius:20px;
+}
+
+QPushButton:pressed {
+      color: white;
+    background-color:black;
+    color:rgba(237, 196, 44, 1);
+}</string>
+         </property>
+         <property name="text">
+          <string>Orders</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_12">
+         <property name="geometry">
+          <rect>
+           <x>420</x>
+           <y>195</y>
+           <width>261</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Arial</family>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:rgba(38, 39, 42, 1);
+border-radius: 16px;
+padding-left:50px;
+color:white;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="placeholderText">
+          <string>mbr231523rco</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_45">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>2</y>
+           <width>731</width>
+           <height>531</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="../images/source.qrc">:/Images/card flat.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_46">
+         <property name="geometry">
+          <rect>
+           <x>430</x>
+           <y>275</y>
+           <width>31</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">backround-color:rgba(82, 82, 82, 1);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="../images/source.qrc">:/Images/quantity.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_47">
+         <property name="geometry">
+          <rect>
+           <x>430</x>
+           <y>200</y>
+           <width>31</width>
+           <height>31</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">backround-color:rgba(82, 82, 82, 1);</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="../images/source.qrc">:/Images/member.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+        <widget class="QCommandLinkButton" name="commandLinkButton_8">
+         <property name="geometry">
+          <rect>
+           <x>680</x>
+           <y>15</y>
+           <width>41</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="icon">
+          <iconset resource="../images/source.qrc">
+           <normaloff>:/Images/close.png</normaloff>:/Images/close.png</iconset>
+         </property>
+         <property name="iconSize">
+          <size>
+           <width>30</width>
+           <height>30</height>
+          </size>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit_13">
+         <property name="geometry">
+          <rect>
+           <x>420</x>
+           <y>270</y>
+           <width>261</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <family>Arial</family>
+           <pointsize>12</pointsize>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:rgba(38, 39, 42, 1);
+border-radius: 16px;
+padding-left:50px;
+color:white;</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="placeholderText">
+          <string>Quantity</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_66">
+         <property name="geometry">
+          <rect>
+           <x>21</x>
+           <y>13</y>
+           <width>51</width>
+           <height>51</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="../images/source.qrc">:/Images/lingkaran.png</pixmap>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_67">
+         <property name="geometry">
+          <rect>
+           <x>30</x>
+           <y>30</y>
+           <width>31</width>
+           <height>16</height>
+          </rect>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>11</pointsize>
+           <weight>75</weight>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+        <zorder>label_45</zorder>
+        <zorder>pushButton_10</zorder>
+        <zorder>lineEdit_12</zorder>
+        <zorder>label_47</zorder>
+        <zorder>commandLinkButton_8</zorder>
+        <zorder>lineEdit_13</zorder>
+        <zorder>label_46</zorder>
+        <zorder>label_66</zorder>
+        <zorder>label_67</zorder>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="page_12">
+      <widget class="QTableWidget" name="tableWidget_3">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>70</y>
+         <width>741</width>
+         <height>391</height>
+        </rect>
+       </property>
+       <column>
+        <property name="text">
+         <string>id</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>id member</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>nama pesanan</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>quantity</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>harga</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>diskon</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>total harga</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>pesanan dibuat</string>
+        </property>
+       </column>
+      </widget>
+      <widget class="QComboBox" name="comboBox">
+       <property name="geometry">
+        <rect>
+         <x>830</x>
+         <y>270</y>
+         <width>191</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>CASH</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>QRIS</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QLabel" name="label_54">
+       <property name="geometry">
+        <rect>
+         <x>830</x>
+         <y>220</y>
+         <width>191</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>11</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>METODE PEMBAYARAAN</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton">
+       <property name="geometry">
+        <rect>
+         <x>830</x>
+         <y>420</y>
+         <width>191</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Transaksi</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_55">
+       <property name="geometry">
+        <rect>
+         <x>830</x>
+         <y>310</y>
+         <width>191</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>11</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>UANG CUSTOMER</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_14">
+       <property name="geometry">
+        <rect>
+         <x>830</x>
+         <y>360</y>
+         <width>191</width>
+         <height>31</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_17">
+       <property name="geometry">
+        <rect>
+         <x>830</x>
+         <y>110</y>
+         <width>191</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>SHOW ORDERS</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_56">
+       <property name="geometry">
+        <rect>
+         <x>830</x>
+         <y>60</y>
+         <width>191</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>11</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>CEK ORDERAN</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_18">
+       <property name="geometry">
+        <rect>
+         <x>830</x>
+         <y>170</y>
+         <width>191</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>DELETE ORDERS</string>
+       </property>
+      </widget>
+      <widget class="QListWidget" name="listWidget">
+       <property name="geometry">
+        <rect>
+         <x>560</x>
+         <y>480</y>
+         <width>256</width>
+         <height>41</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_57">
+       <property name="geometry">
+        <rect>
+         <x>440</x>
+         <y>480</y>
+         <width>111</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Total Harga</string>
+       </property>
+      </widget>
+      <widget class="QWidget" name="widget_2" native="true">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>30</y>
+         <width>949</width>
+         <height>665</height>
+        </rect>
+       </property>
+       <widget class="QLabel" name="label_35">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>-10</y>
+          <width>1021</width>
+          <height>701</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap resource="../images/source.qrc">:/Images/qris.png</pixmap>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_19">
+        <property name="geometry">
+         <rect>
+          <x>470</x>
+          <y>490</y>
+          <width>171</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>12</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+background-color:rgba(30, 182, 247, 1);
+color:white;
+border-radius:10px;
+}
+
+QPushButton:pressed {
+      color: rgba(30, 182, 247, 1);
+    background-color:green;
+   
+}</string>
+        </property>
+        <property name="text">
+         <string>Selesai</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_20">
+        <property name="geometry">
+         <rect>
+          <x>740</x>
+          <y>490</y>
+          <width>161</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>12</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+border: 2px solid rgba(30, 182, 247, 1);
+color:rgba(30, 182, 247, 1);
+border-radius:10px;
+}
+
+QPushButton:pressed {
+      color: white;
+    background-color:red;
+    color:white;
+}</string>
+        </property>
+        <property name="text">
+         <string>Batal</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_72">
+        <property name="geometry">
+         <rect>
+          <x>610</x>
+          <y>297</y>
+          <width>251</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>1000</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_73">
+        <property name="geometry">
+         <rect>
+          <x>610</x>
+          <y>339</y>
+          <width>261</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>1000</string>
+        </property>
+       </widget>
+       <widget class="QCommandLinkButton" name="commandLinkButton_2">
+        <property name="geometry">
+         <rect>
+          <x>875</x>
+          <y>120</y>
+          <width>61</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="../images/source.qrc">
+          <normaloff>:/Images/crossx.png</normaloff>:/Images/crossx.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QLabel" name="label_30">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>30</y>
+       <width>81</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>12</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color:white;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="../images/source.qrc">:/Images/barista_user.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="home_6">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>340</y>
+       <width>231</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Arial</family>
+       <pointsize>14</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {
+    border: none;
+    border-radius: 3px;
+    text-align: left;
+    padding: 8px 0 8px 15px;
+    color: #788596;
+}
+
+QPushButton:hover {
+    background-color: rgba(86, 101, 115, 0.5);
+}
+
+QPushButton:pressed{
+ background-color: rgba(86, 101, 115, 0.8);
+}
+QPushButton:focus {
+  	color: #fff;	
+}
+</string>
+     </property>
+     <property name="text">
+      <string>member</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="page_3"/>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../images/source.qrc"/>
+  <include location="../../project/images/source.qrc"/>
+ </resources>
+ <connections/>
+</ui>
