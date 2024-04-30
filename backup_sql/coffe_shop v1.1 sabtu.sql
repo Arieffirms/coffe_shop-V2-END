@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 06, 2024 at 12:47 PM
+-- Generation Time: Apr 13, 2024 at 03:08 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.0.30
 
@@ -58,12 +58,12 @@ CREATE TABLE `menu` (
 --
 
 INSERT INTO `menu` (`nama_barang`, `stock`, `harga`, `waktu_restock`) VALUES
-('Caffe Americano', 209, 27000, '2024-04-13 07:36:20'),
-('Caffe Mocha', 329, 31000, '2024-04-13 07:31:39'),
-('Cappuccino', 209, 29000, '2024-04-13 07:24:31'),
-('Caramel Macchiato', 333, 37000, '2024-04-13 07:45:55'),
-('Flat White', 117, 25000, '2024-04-12 08:07:48'),
-('Iced Espresso and Matcha Fusion', 105, 31000, '2024-04-13 07:31:45');
+('Caffe Americano', 10, 27000, '2024-04-13 07:36:20'),
+('Caffe Mocha', 10, 31000, '2024-04-19 01:56:30'),
+('Cappuccino', 10, 29000, '2024-04-13 07:24:31'),
+('Caramel Macchiato', 10, 37000, '2024-04-13 10:49:17'),
+('Flat White', 10, 25000, '2024-04-12 08:07:48'),
+('Iced Espresso and Matcha Fusion', 10, 31000, '2024-04-13 10:50:19');
 
 -- --------------------------------------------------------
 
@@ -81,6 +81,14 @@ CREATE TABLE `pesanan` (
   `total_harga` int(30) NOT NULL,
   `waktu_pembuatan` timestamp NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `pesanan`
+--
+
+INSERT INTO `pesanan` (`id`, `id_member`, `nama_pesanan`, `quantity`, `harga`, `diskon`, `total_harga`, `waktu_pembuatan`) VALUES
+('#RCO1570', '', 'Caffe Mocha', 1, 31000, 0, 31000, '2024-04-12 01:56:30'),
+('#RCO6524', '', 'Caffe Mocha', 1, 31000, 0, 31000, '2024-04-09 12:40:30');
 
 -- --------------------------------------------------------
 
@@ -102,6 +110,17 @@ CREATE TABLE `transaksi` (
   `kembalian` int(11) NOT NULL,
   `waktu_pembuatan` timestamp NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `transaksi`
+--
+
+INSERT INTO `transaksi` (`id`, `id_member`, `nama`, `nama_pesanan`, `quantity`, `harga`, `diskon`, `total_harga`, `metode_pembayaran`, `uang_customer`, `kembalian`, `waktu_pembuatan`) VALUES
+('#RCO1570', '', '', 'Caffe Mocha', 1, 31000, 0, 31000, 'QRIS', 31000, 0, '2024-04-12 01:56:43'),
+('#RCO4580', '', '', 'Caffe Mocha', 1, 31000, 0, 31000, 'QRIS', 31000, 0, '2024-04-06 10:49:41'),
+('#RCO5462', '#rpsmbr3953', 'maulana', 'Iced Espresso and Matcha Fusio', 1, 31000, 3100, 27900, 'CASH', 30000, 2100, '2024-04-06 10:50:33'),
+('#RCO6524', '', '', 'Caffe Mocha', 1, 31000, 0, 31000, 'QRIS', 31000, 0, '2024-04-09 12:41:35'),
+('#RCO7039', '', '', 'Caffe Mocha', 1, 31000, 0, 31000, 'CASH', 35000, 4000, '2024-04-07 12:05:40');
 
 -- --------------------------------------------------------
 

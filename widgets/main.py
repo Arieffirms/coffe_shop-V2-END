@@ -461,12 +461,11 @@ class LoginScreen(QDialog):
 
         mycursor.execute("SELECT * FROM pesanan")
 
-        # Membersihkan tabel sebelum menambahkan data baru
         self.ui.tableWidget_3.setRowCount(0)
 
         total_price = 0
 
-        rows = mycursor.fetchall()  # Menyimpan semua baris pesanan
+        rows = mycursor.fetchall() 
 
         if not rows:  # Jika tabel pesanan kosong
             message = "Tidak ada pesanan saat ini."
@@ -1013,9 +1012,6 @@ class LoginScreen(QDialog):
         mycursor.close()
         mydb.close()
  
-
-        
-
     def close_menu_list(self):
         self.ui.stackedWidget_4.close()
 
@@ -1170,14 +1166,14 @@ class LoginScreen(QDialog):
 
 
 
-if __name__ == '__main__':
-    app = QApplication(sys.argv)
-    window = LoginScreen()
-    window.show()
-    sys.exit(app.exec_())
 # if __name__ == '__main__':
 #     app = QApplication(sys.argv)
 #     window = LoginScreen()
 #     window.show()
-#     window.bug()  
 #     sys.exit(app.exec_())
+if __name__ == '__main__':
+    app = QApplication(sys.argv)
+    window = LoginScreen()
+    window.show()
+    window.bug()  
+    sys.exit(app.exec_())

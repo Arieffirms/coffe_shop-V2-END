@@ -362,6 +362,8 @@ class Ui_LoginDashboard(object):
 "      color: #fff;    \n"
 "}\n"
 "")
+        self.home.setCheckable(True)
+        self.home.setChecked(True)
         self.home.setObjectName("home")
         self.home_2 = QtWidgets.QPushButton(self.page_2)
         self.home_2.setGeometry(QtCore.QRect(20, 220, 231, 41))
@@ -390,6 +392,8 @@ class Ui_LoginDashboard(object):
 "      color: #fff;    \n"
 "}\n"
 "")
+        self.home_2.setCheckable(True)
+        self.home_2.setChecked(True)
         self.home_2.setObjectName("home_2")
         self.home_3 = QtWidgets.QPushButton(self.page_2)
         self.home_3.setGeometry(QtCore.QRect(20, 300, 231, 41))
@@ -418,6 +422,8 @@ class Ui_LoginDashboard(object):
 "      color: #fff;    \n"
 "}\n"
 "")
+        self.home_3.setCheckable(True)
+        self.home_3.setChecked(True)
         self.home_3.setObjectName("home_3")
         self.home_4 = QtWidgets.QPushButton(self.page_2)
         self.home_4.setGeometry(QtCore.QRect(20, 260, 231, 41))
@@ -446,6 +452,8 @@ class Ui_LoginDashboard(object):
 "      color: #fff;    \n"
 "}\n"
 "")
+        self.home_4.setCheckable(True)
+        self.home_4.setChecked(True)
         self.home_4.setObjectName("home_4")
         self.home_5 = QtWidgets.QPushButton(self.page_2)
         self.home_5.setGeometry(QtCore.QRect(20, 710, 91, 41))
@@ -2105,6 +2113,8 @@ class Ui_LoginDashboard(object):
 "      color: #fff;    \n"
 "}\n"
 "")
+        self.home_6.setCheckable(True)
+        self.home_6.setChecked(True)
         self.home_6.setObjectName("home_6")
         self.stackedWidget.addWidget(self.page_2)
         self.page_3 = QtWidgets.QWidget()
@@ -2113,14 +2123,14 @@ class Ui_LoginDashboard(object):
 
         self.retranslateUi(Dialog)
         self.stackedWidget.setCurrentIndex(1)
-        self.stackedWidget_2.setCurrentIndex(0)
+        self.stackedWidget_2.setCurrentIndex(4)
         self.stackedWidget_4.setCurrentIndex(2)
         self.stackedWidget_3.setCurrentIndex(4)
         QtCore.QMetaObject.connectSlotsByName(Dialog)
 
     def retranslateUi(self, Dialog):
         _translate = QtCore.QCoreApplication.translate
-        Dialog.setWindowTitle(_translate("Dialog", "Rapiets Coffe"))
+        Dialog.setWindowTitle(_translate("Dialog", "Dialog"))
         self.commandLinkButton.setText(_translate("Dialog", " Daftar sekarang!"))
         self.label_14.setText(_translate("Dialog", "Tidak punya akun?"))
         self.label_5.setText(_translate("Dialog", "LOGIN"))

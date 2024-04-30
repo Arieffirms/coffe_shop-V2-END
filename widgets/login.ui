@@ -806,6 +806,12 @@ QPushButton:focus {
      <property name="text">
       <string>home</string>
      </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
     </widget>
     <widget class="QPushButton" name="home_2">
      <property name="geometry">
@@ -847,6 +853,12 @@ QPushButton:focus {
      </property>
      <property name="text">
       <string>Product</string>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
      </property>
     </widget>
     <widget class="QPushButton" name="home_3">
@@ -890,6 +902,12 @@ QPushButton:focus {
      <property name="text">
       <string>Stock barang</string>
      </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
     </widget>
     <widget class="QPushButton" name="home_4">
      <property name="geometry">
@@ -931,6 +949,12 @@ QPushButton:focus {
      </property>
      <property name="text">
       <string>Orders</string>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
      </property>
     </widget>
     <widget class="QPushButton" name="home_5">
@@ -988,7 +1012,7 @@ QPushButton:focus {
       <string notr="true"/>
      </property>
      <property name="currentIndex">
-      <number>0</number>
+      <number>4</number>
      </property>
      <widget class="QWidget" name="page_4">
       <widget class="QLabel" name="label_27">
@@ -4783,6 +4807,12 @@ QPushButton:focus {
      </property>
      <property name="text">
       <string>member</string>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
      </property>
     </widget>
    </widget>
