@@ -1,5 +1,6 @@
 <RCC>
   <qresource prefix="Images">
+    <file>print.png</file>
     <file>search.png</file>
     <file>create_akun.png</file>
     <file>search-engine.png</file>

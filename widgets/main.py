@@ -1,5 +1,6 @@
 import sys
-from PyQt5.QtWidgets import QApplication,QDialog,QMessageBox,QTableWidgetItem
+from PyQt5.QtWidgets import QApplication,QDialog,QMessageBox,QTableWidgetItem,QFileDialog
+import xlsxwriter
 import mysql.connector as connector
 import re
 import random
@@ -123,6 +124,11 @@ class LoginScreen(QDialog):
         
         self.ui.pushButton_login_2.clicked.connect(self.daftar_result)
         self.ui.home_5.clicked.connect(self.logout)
+        
+        self.ui.pushButton_30.clicked.connect(self.printData)
+        
+      
+        
         
         
 
@@ -1158,6 +1164,37 @@ class LoginScreen(QDialog):
         reply = QMessageBox.question(self, 'Logout', 'apakah anda ingin logout?', QMessageBox.Yes | QMessageBox.No, QMessageBox.No)
         if reply == QMessageBox.Yes:
             self.ui.stackedWidget.setCurrentIndex(0)
+            
+            
+    def printData(self):
+        fileName, _ = QFileDialog.getSaveFileName(self, "Save File", "", "Excel Files (*.xlsx)")
+        if fileName:
+            self.exportToExcel(self.ui.tableWidget, fileName)
+
+    def exportToExcel(self, tableWidget, fileName):
+        workbook = xlsxwriter.Workbook(fileName)
+        worksheet = workbook.add_worksheet()
+
+        # Menulis header
+        headers = []
+        column_count = tableWidget.columnCount()
+        for column in range(column_count):
+            header = tableWidget.horizontalHeaderItem(column).text()
+            headers.append(header)
+            worksheet.write(0, column, header)
+
+        # Menulis data
+        for row in range(tableWidget.rowCount()):
+            for column in range(column_count):
+                item = tableWidget.item(row, column)
+                if item is not None:
+                    worksheet.write(row + 1, column, item.text())
+
+        workbook.close()
+
+
+        
+    
 
 
         

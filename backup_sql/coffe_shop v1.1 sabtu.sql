@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 13, 2024 at 03:08 AM
+-- Generation Time: May 01, 2024 at 11:36 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.0.30
 
@@ -38,7 +38,7 @@ CREATE TABLE `customer_member` (
 --
 
 INSERT INTO `customer_member` (`id_member`, `nama`, `waktu_pembuatan`) VALUES
-('#rpsmbr3953243', 'maulana', '2024-04-06 07:36:32');
+('#rpsmbr2306336', 'arif firmansyah', '2024-05-01 09:29:42');
 
 -- --------------------------------------------------------
 
@@ -59,11 +59,11 @@ CREATE TABLE `menu` (
 
 INSERT INTO `menu` (`nama_barang`, `stock`, `harga`, `waktu_restock`) VALUES
 ('Caffe Americano', 10, 27000, '2024-04-13 07:36:20'),
-('Caffe Mocha', 10, 31000, '2024-04-19 01:56:30'),
-('Cappuccino', 10, 29000, '2024-04-13 07:24:31'),
+('Caffe Mocha', 6, 31000, '2024-05-08 09:31:27'),
+('Cappuccino', 9, 29000, '2024-05-08 09:25:32'),
 ('Caramel Macchiato', 10, 37000, '2024-04-13 10:49:17'),
 ('Flat White', 10, 25000, '2024-04-12 08:07:48'),
-('Iced Espresso and Matcha Fusion', 10, 31000, '2024-04-13 10:50:19');
+('Iced Espresso and Matcha Fusion', 8, 31000, '2024-05-08 09:25:25');
 
 -- --------------------------------------------------------
 
@@ -87,8 +87,7 @@ CREATE TABLE `pesanan` (
 --
 
 INSERT INTO `pesanan` (`id`, `id_member`, `nama_pesanan`, `quantity`, `harga`, `diskon`, `total_harga`, `waktu_pembuatan`) VALUES
-('#RCO1570', '', 'Caffe Mocha', 1, 31000, 0, 31000, '2024-04-12 01:56:30'),
-('#RCO6524', '', 'Caffe Mocha', 1, 31000, 0, 31000, '2024-04-09 12:40:30');
+('#RCO8880', '#rpsmbr2306336', 'Caffe Mocha', 1, 31000, 3100, 27900, '2024-05-01 09:29:54');
 
 -- --------------------------------------------------------
 
@@ -116,11 +115,7 @@ CREATE TABLE `transaksi` (
 --
 
 INSERT INTO `transaksi` (`id`, `id_member`, `nama`, `nama_pesanan`, `quantity`, `harga`, `diskon`, `total_harga`, `metode_pembayaran`, `uang_customer`, `kembalian`, `waktu_pembuatan`) VALUES
-('#RCO1570', '', '', 'Caffe Mocha', 1, 31000, 0, 31000, 'QRIS', 31000, 0, '2024-04-12 01:56:43'),
-('#RCO4580', '', '', 'Caffe Mocha', 1, 31000, 0, 31000, 'QRIS', 31000, 0, '2024-04-06 10:49:41'),
-('#RCO5462', '#rpsmbr3953', 'maulana', 'Iced Espresso and Matcha Fusio', 1, 31000, 3100, 27900, 'CASH', 30000, 2100, '2024-04-06 10:50:33'),
-('#RCO6524', '', '', 'Caffe Mocha', 1, 31000, 0, 31000, 'QRIS', 31000, 0, '2024-04-09 12:41:35'),
-('#RCO7039', '', '', 'Caffe Mocha', 1, 31000, 0, 31000, 'CASH', 35000, 4000, '2024-04-07 12:05:40');
+('#RCO8880', '#rpsmbr2306', 'arif firmansyah', 'Caffe Mocha', 1, 31000, 3100, 27900, 'QRIS', 27900, 0, '2024-05-01 09:31:51');
 
 -- --------------------------------------------------------
 

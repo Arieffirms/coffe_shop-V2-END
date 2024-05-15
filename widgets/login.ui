@@ -1012,7 +1012,7 @@ QPushButton:focus {
       <string notr="true"/>
      </property>
      <property name="currentIndex">
-      <number>4</number>
+      <number>0</number>
      </property>
      <widget class="QWidget" name="page_4">
       <widget class="QLabel" name="label_27">
@@ -1410,6 +1410,58 @@ QPushButton:hover {
         </size>
        </property>
       </widget>
+      <widget class="QPushButton" name="pushButton_30">
+       <property name="geometry">
+        <rect>
+         <x>480</x>
+         <y>217</y>
+         <width>41</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>11</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+QPushButton {
+    border:2px solid black;
+	color: rgba(233, 31, 99, 1);
+	border-radius: 16px;
+}
+
+QPushButton:pressed{
+ border:2px solid red;
+ background-color: red;
+color:white;
+}
+
+QPushButton:hover {
+     background-color: rgba(86, 101, 115, 0.5);
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="../images/source.qrc">
+         <normaloff>:/Images/print.png</normaloff>:/Images/print.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>20</width>
+         <height>20</height>
+        </size>
+       </property>
+      </widget>
       <zorder>label_27</zorder>
       <zorder>label_28</zorder>
       <zorder>label_29</zorder>
@@ -1422,6 +1474,7 @@ QPushButton:hover {
       <zorder>username_15</zorder>
       <zorder>label_91</zorder>
       <zorder>pushButton_29</zorder>
+      <zorder>pushButton_30</zorder>
      </widget>
      <widget class="QWidget" name="page_13">
       <widget class="QLabel" name="label_58">
