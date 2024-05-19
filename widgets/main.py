@@ -495,7 +495,7 @@ class LoginScreen(QDialog):
         try:
             mydb = koneksi()
             mycursor = mydb.cursor()
-            metode_pembayaran = self.ui.comboBox.currentText()  # Mengambil metode pembayaran dari combobox
+            metode_pembayaran = self.ui.comboBox.currentText() 
             uang_customer = self.ui.lineEdit_14.text()
 
             if metode_pembayaran == "CASH":
@@ -511,14 +511,12 @@ class LoginScreen(QDialog):
                     QMessageBox.warning(self, "Peringatan", "Jumlah uang harus berupa angka positif.")
                     return
 
-                
                 total_harga = 0
                 pesanan_query = "SELECT id_member, total_harga FROM pesanan"
                 mycursor.execute(pesanan_query)
                 for id_member, harga in mycursor.fetchall():
                     total_harga += harga
 
-                    
                     nama = ""
                     cari_nama_query = "SELECT nama FROM customer_member WHERE id_member = %s"
                     mycursor.execute(cari_nama_query, (id_member,))
@@ -526,9 +524,12 @@ class LoginScreen(QDialog):
                     if result:
                         nama = result[0]
 
-        
                 if total_harga == 0:
                     QMessageBox.warning(self, "Peringatan", "Tidak ada pesanan untuk diproses.")
+                    return
+
+                if uang_customer < total_harga:
+                    QMessageBox.warning(self, "Peringatan", "Jumlah uang harus lebih atau pas.")
                     return
 
                 transaksi = """
@@ -544,22 +545,22 @@ class LoginScreen(QDialog):
                     QMessageBox.warning(self, "Peringatan", "Tidak ada data untuk dipindahkan.")
                 else:
                     QMessageBox.information(self, "Info", "Data berhasil dipindahkan ke tabel transaksi.")
+            
             elif metode_pembayaran == "QRIS":
                 self.ui.widget_2.show()
                 mycursor.execute("SELECT SUM(total_harga) FROM pesanan")
                 total_harga_semua = mycursor.fetchone()[0]
-                self.ui.label_73.setText(f"{total_harga_semua}") 
-                
-                ## mengitung quantitynya
+                self.ui.label_73.setText(f"{total_harga_semua}")
+
                 mycursor.execute("SELECT SUM(quantity) FROM pesanan")
                 total_quantity = mycursor.fetchone()[0]
-                self.ui.label_72.setText(f"{total_quantity}") 
+                self.ui.label_72.setText(f"{total_quantity}")
                 mycursor.close()
 
         finally:
             mycursor.close()
             mydb.close()
-            
+
             
     
     def result_transaksi_qris(self):
