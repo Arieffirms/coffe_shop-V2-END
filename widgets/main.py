@@ -367,20 +367,33 @@ class LoginScreen(QDialog):
     def delete_pesanan_transaksi(self):
         id = self.ui.username_15.text()
 
-        confirm = QMessageBox.question(self, "Konfirmasi", f"Apakah Anda yakin ingin menghapus member dengan id {id}?", QMessageBox.Yes | QMessageBox.No)
-
-        if confirm == QMessageBox.Yes:
-            mydb = koneksi()
-            mycursor = mydb.cursor()
-            sql = "DELETE FROM transaksi WHERE id LIKE %s"
-            mycursor.execute(sql, ("%" + id + "%",)) 
-            mydb.commit()
-            QMessageBox.information(self, "Informasi", f"Member dengan id {id} telah dihapus.")
-            self.ui.tableWidget.removeRow(0)
-            mycursor.close()
-            self.ui.username_15.clear()
+        if not id:
+            QMessageBox.warning(self, "Perhatian", "Anda wajib Memasukan id pada penghapusan!")
         else:
-            QMessageBox.information(self, "Informasi", "Penghapusan dibatalkan.")
+            confirm = QMessageBox.question(self, "Konfirmasi", f"Apakah Anda yakin ingin menghapus member dengan id {id}?", QMessageBox.Yes | QMessageBox.No)
+
+            if confirm == QMessageBox.Yes:
+                mydb = koneksi()
+                mycursor = mydb.cursor()
+
+                check_sql = "SELECT COUNT(*) FROM transaksi WHERE id LIKE %s"
+                mycursor.execute(check_sql, ("%" + id + "%",))
+                count = mycursor.fetchone()[0]
+
+                if count == 0:
+                    QMessageBox.warning(self, "Perhatian", f"Member dengan id {id} tidak ditemukan.")
+                else:
+                    sql = "DELETE FROM transaksi WHERE id LIKE %s"
+                    mycursor.execute(sql, ("%" + id + "%",))
+                    mydb.commit()
+                    QMessageBox.information(self, "Informasi", f"Member dengan id {id} telah dihapus.")
+                    self.ui.tableWidget.removeRow(0)
+                    self.ui.username_15.clear()
+
+                mycursor.close()
+            else:
+                QMessageBox.information(self, "Informasi", "Penghapusan dibatalkan.")
+
 
     def close_menu(self):
         self.ui.stackedWidget_3.close()
@@ -544,6 +557,11 @@ class LoginScreen(QDialog):
                 if mycursor.rowcount == 0:
                     QMessageBox.warning(self, "Peringatan", "Tidak ada data untuk dipindahkan.")
                 else:
+                    delete_query = "DELETE FROM pesanan"
+                    mycursor.execute(delete_query)
+                    mydb.commit()
+                    self.ui.listWidget.clear()
+                    self.ui.tableWidget_3.setRowCount(0)
                     QMessageBox.information(self, "Info", "Data berhasil dipindahkan ke tabel transaksi.")
             
             elif metode_pembayaran == "QRIS":
@@ -600,6 +618,11 @@ class LoginScreen(QDialog):
                         if mycursor.rowcount == 0:
                             QMessageBox.warning(self, "Info", "Data sudah ada di tabel transaksi.")
                         else:
+                            delete_query = "DELETE FROM pesanan"
+                            mycursor.execute(delete_query)
+                            mydb.commit()
+                            self.ui.listWidget.clear()
+                            self.ui.tableWidget_3.setRowCount(0)
                             QMessageBox.information(self, "Info", "Data berhasil dipindahkan ke tabel transaksi.")
                             self.ui.widget_2.hide()
         except connector.Error as err:
@@ -1213,5 +1236,5 @@ if __name__ == '__main__':
     app = QApplication(sys.argv)
     window = LoginScreen()
     window.show()
-    window.bug()  
+    # window.bug()  
     sys.exit(app.exec_())
